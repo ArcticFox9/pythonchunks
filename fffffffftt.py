@@ -1,7 +1,7 @@
 print("Someone Farted!")
 print("But... who?")
 import random      #imports a thing: random number generator
-#hi
+#hi there
 for x in range(12): #range of 1 to 12
   culprit = random.randint(1,12)  #gets random number from 1 to 12
 if(culprit == 1):
