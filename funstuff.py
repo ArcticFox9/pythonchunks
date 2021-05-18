@@ -34,7 +34,7 @@ greet('Bob')
 
 
 import re
-for test_string in ['555-555-1212', '415-672-5717', '72-5717awemowehindajuuungle']:
+for test_string in ['555-555-1212', '666-666-5717', '72-5717awemowehindajuuungle']:
     if re.match(r'^\d{3}-\d{3}-\d{4}$', test_string):
         print (test_string, 'is a valid US local phone number')
     else:
