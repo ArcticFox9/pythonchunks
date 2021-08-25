@@ -1,6 +1,6 @@
 import pandas as pd
 
-df = pd.read_csv ("animals.csv")
+df = pd.read_csv ("animals_pandas.csv")
 
 # df.head()
 # print (df)
